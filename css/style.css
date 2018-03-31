@@ -1,0 +1,101 @@
+header {
+    color: #FFFFFF;
+    background-color: #F0F8FF;
+    padding: 140px 0 100px;
+    background-image: url("../img/dog-header.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+header h1 {
+    font-size: 48px;
+}
+body {
+    color: #4A4A4A;
+}
+li {
+    margin-bottom: 8px;
+}
+.first-section ul {
+    background-color: #F7F9FC;
+    margin-top: 25px;
+    padding: 30px 55px;
+    border-radius: 8px;
+}
+.section {
+    padding: 10px 0 40px;
+}
+.first-section {
+    background-color: white;
+}
+.first-section img {
+  margin-bottom: 35px;
+}
+@media (min-width: 768px) {
+  .first-section img {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .first-section img {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 576px) {
+    .section {
+        padding: 100px 0;
+    }
+    header {
+        padding: 200px 0;
+    }
+}
+.second-section {
+    background-color: #FBFBFB;
+}
+.second-section p {
+    color: #9DA2A6;
+}
+.second-section img {
+    width: 75px;
+    height: 75px;
+    margin: 25px 0 10px;
+}
+.nav-item {
+    margin: 10px 16px;
+}
+.navbar-brand img{
+    height: 30px;
+    width: 30px;
+}
+.third-section {
+    background-color: white;
+    margin-bottom: 35px;
+}
+.third-section img {
+    margin-top: 35px;
+}
+@media (min-width: 768px){
+    .third-section img{
+        margin-top: 0;
+    }
+}
+.fourth-section {
+    background-color: #F0F8FF;
+    background-image: url(../img/dogs-pattern.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 192px;
+    
+}
+footer {
+    background-color: white;
+    padding-top: 35px;
+    /**Tentando deixar a barra do footer mais grossa**/
+    padding: 15px;
+}
+footer img {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 3px;
+}
